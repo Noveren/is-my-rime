@@ -1,5 +1,6 @@
 *.DS_Store
 build/
 *.userdb/
+*.userdb.old/
 installation.yaml
 user.yaml

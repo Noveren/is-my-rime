@@ -1,0 +1,16 @@
+patch:
+  # 模糊拼音设置 - 参考 https://gist.github.com/lotem/2320943
+  # 修改后，需要重新部署
+  'speller/algebra':
+    - erase/^xx$/                      # 第一行保留
+
+    - derive/^n/l/                     # n => l
+    - derive/^l/n/                     # l => n
+    - derive/([aei])n$/$1ng/           # en => eng, in => ing
+    - derive/([aei])ng$/$1n/           # eng => en, ing => in
+
+    - abbrev/^([a-z]).+$/$1/           #简拼（首字母）
+    - abbrev/^([zcs]h).+$/$1/          #简拼（zh, ch, sh）
+
+  menu:
+    page_size: 9

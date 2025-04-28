@@ -1,0 +1,27 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.16.3
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Mon Apr 28 23:37:21 2025"
+  rime_version: 1.11.2
+patch:
+  show_notifications: false
+  "style/color_scheme": dark_temple
+  "style/color_scheme_dark": dark_temple
+  "style/font_point": 10
+  "style/label_font_point": 10
+  "style/inline_preedit": true
+  "style/horizontal": true
+  
+  "style/layout/corner_radius": 15
+  "style/layout/border": 0
+  "style/layout/border_width": 0
+  "style/layout/candidate_spacing": 12
+  "style/layout/hilite_padding": 8
+  "style/layout/hilite_spacing": 3
+  "style/layout/margin_x": 8
+  "style/layout/margin_y": 8
+  "style/layout/round_corner": 7
+  "style/layout/spacing": 10
+
+

@@ -27,7 +27,7 @@ switches:
     states: [ 中文, 英文 ]
   - name: emoji_suggestion
     states: [ "😣️","😁️"]
-    reset: 1
+    reset: 0
   - name: full_shape
     states: [ 半角, 全角 ]
     reset: 0

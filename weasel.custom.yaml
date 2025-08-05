@@ -13,7 +13,7 @@ patch:
   "style/inline_preedit": true
   "style/horizontal": true
   
-  "style/layout/corner_radius": 15
+  "style/layout/corner_radius": 4
   "style/layout/border": 0
   "style/layout/border_width": 0
   "style/layout/candidate_spacing": 12

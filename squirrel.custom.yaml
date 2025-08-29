@@ -20,7 +20,7 @@ patch:
       ascii_mode: true
       vim_mode: true
     md.obsidian:
-      ascii_mode: true
+      ascii_mode: false
       vim_mode: true
     com.mitchellh.ghostty:
       ascii_mode: true

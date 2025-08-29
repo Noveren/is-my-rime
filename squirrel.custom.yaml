@@ -1,0 +1,28 @@
+customization:
+  distribution_code_name: Squirrel
+  distribution_version: 1.0.3
+  rime_version: 1.11.2
+patch:
+  show_notifications_when: never
+
+  "style/color_scheme": dark_temple
+  "style/color_scheme_dark": dark_temple
+  "style/font_point": 14
+  "style/label_font_point": 14
+  "style/inline_preedit": true
+  "style/candidate_list_layout": linear
+ 
+  "style/corner_radius": 4
+  "style/border_width": 0
+
+  app_options:
+    com.microsoft.VSCode:
+      ascii_mode: true
+      vim_mode: true
+    md.obsidian:
+      ascii_mode: true
+      vim_mode: true
+    com.mitchellh.ghostty:
+      ascii_mode: true
+      vim_mode: true
+      

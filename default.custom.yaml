@@ -15,3 +15,5 @@ patch:
       Control_R: commit_code
       Shift_L: noop
       Shift_R: noop
+  "switcher/hotkeys":
+      - Control+Shift+grave

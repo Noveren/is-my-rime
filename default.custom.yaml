@@ -6,7 +6,7 @@ customization:
   rime_version: 1.11.2
 patch:
   schema_list:
-    - {schema: rime_mint}
+    - { schema: rime_mint }
   ascii_composer:
     good_old_caps_lock: true
     switch_key:
@@ -16,4 +16,4 @@ patch:
       Shift_L: noop
       Shift_R: noop
   "switcher/hotkeys":
-      - Control+Shift+grave
+    - Control+Shift+grave

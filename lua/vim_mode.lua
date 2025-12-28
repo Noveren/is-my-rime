@@ -13,12 +13,14 @@ local function vim_mode(key, env)
 	local engine = env.engine
 	local context = engine.context
 
-	if is_win() and key:repr() == "Escape" then
-		local get_ascii_mode = context:get_option("ascii_mode")
-		if not get_ascii_mode then
-			context:set_option("ascii_mode", true)
+	if is_win() then
+		if key:repr() == "Escape" then
+			local ascii_mode = context:get_option("ascii_mode")
+			if not ascii_mode then
+				context:set_option("ascii_mode", true)
+			end
+			return 2
 		end
-		return 2 -- kNoop
 	end
 	return 2 -- kNoop
 end

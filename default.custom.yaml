@@ -1,19 +1,15 @@
 customization:
   distribution_code_name: Weasel
-  distribution_version: 0.16.3
+  distribution_version: 0.17.4
   generator: "Rime::SwitcherSettings"
-  modified_time: "Mon Apr 28 23:37:11 2025"
-  rime_version: 1.11.2
+  modified_time: "Sun Dec 28 16:57:06 2025"
+  rime_version: 1.13.1
 patch:
-  schema_list:
-    - { schema: rime_mint }
   ascii_composer:
     good_old_caps_lock: true
-    switch_key:
-      Caps_Lock: commit_code
-      Control_L: commit_code
-      Control_R: commit_code
-      Shift_L: noop
-      Shift_R: noop
-  "switcher/hotkeys":
-    - Control+Shift+grave
+    switch_key: {Caps_Lock: commit_code, Control_L: commit_code, Control_R: commit_code, Shift_L: noop, Shift_R: noop}
+  schema_list:
+    - {schema: rime_mint}
+    - {schema: melt_eng}
+  "switcher/abbreviate_options": false
+  "switcher/fold_options": false
